@@ -1,0 +1,188 @@
+/*résolution 1980p*/
+
+/*Polices utilisées*/
+
+@font-face {
+    font-family: 'abelregular';
+    src: url('police/abel-fontfacekit/abel-regular-webfont.eot');
+    src: url('police/abel-fontfacekit/abel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/abel-fontfacekit/abel-regular-webfont.woff2') format('woff2'),
+         url('police/abel-fontfacekit/abel-regular-webfont.woff') format('woff'),
+         url('police/abel-fontfacekit/abel-regular-webfont.ttf') format('truetype'),
+         url('police/abel-fontfacekit/abel-regular-webfont.svg#abelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aileronregular';
+    src: url('police/aileron-fontfacekit/Aileron-Regular-webfont.eot');
+    src: url('police/aileron-fontfacekit/Aileron-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/aileron-fontfacekit/Aileron-Regular-webfont.woff2') format('woff2'),
+         url('police/aileron-fontfacekit/Aileron-Regular-webfont.woff') format('woff'),
+         url('police/aileron-fontfacekit/Aileron-Regular-webfont.ttf') format('truetype'),
+         url('police/aileron-fontfacekit/Aileron-Regular-webfont.svg#aileronregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Header*/
+
+.bloc_header{
+	background-image: url(img/telephone.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	font-family: 'abelregular';
+	text-align: center;
+	color: rgb(0;0;0);
+}
+
+.bloc_header h2{
+	margin-top: 20px;
+}
+
+.bloc_header h1{
+	margin-top: 120px;
+}
+
+/*Navigation*/
+
+.bloc_header--navigation ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	padding-top: 1em;
+	font-family: 'aileronregular';
+	color: black;
+	text-decoration: none; /*Je ne comprends pas pourquoi le texte reste bleu souligné*/
+}
+
+/*Sections*/
+
+	/*premier bloc*/
+
+.premier_bloc{
+	background-image: url(img/ananas.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.premier_bloc--text{
+	font-family: 'abelregular';
+	color: rgb(0;0;0);
+	text-align: center;
+	padding-left: 45em; 
+	padding-top: 3.5em;
+	padding-bottom: 4em;
+	padding-right: 2em;
+	font-size: 1.1em;
+}
+
+	/*deuxieme bloc*/
+
+.second_bloc{
+	background-image: url(img/cafe.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'abelregular';
+}
+
+.second_bloc--text{
+	font-family: 'abelregular';
+	color: rgb(250;250;250);
+	text-align: center;
+	padding-left: 2em; 
+	padding-top: 4em;
+	padding-bottom: 4em;
+	padding-right: 45em;
+	font-size: 1.1em;
+}
+
+	/*troisieme bloc*/
+
+.troisieme_bloc{
+	background-image: url(img/banana.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'abelregular';
+	text-align: center;
+}
+
+.troisieme_bloc--text{
+	font-family: 'abelregular';
+	color: rgb(0;0;0);
+	text-align: center;
+	padding-left: 45em; 
+	padding-top: 4em;
+	padding-bottom: 4em;
+	padding-right: 2em;
+	font-size: 1.1em;
+}
+
+	/*quatrieme bloc*/
+
+.quatrieme_bloc{
+	background-image: url(img/casque.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'abelregular';
+	text-align: center;
+}
+
+.quatrieme_bloc--text{
+	font-family: 'abelregular';
+	color: rgb(0;0;0);
+	text-align: center;
+	padding-left: 45em; 
+	padding-top: 4em;
+	padding-bottom: 4em;
+	padding-right: 2em;
+	font-size: 1.1em;
+}
+
+	/*dernier bloc*/
+
+.dernier_bloc{
+	background-image: url(img/craie.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'abelregular';
+	text-align: center;
+}
+
+.dernier_bloc--text{
+	font-family: 'abelregular';
+	color: rgb(0;0;0);
+	text-align: center;
+	padding-left: 45em; 
+	padding-top: 4em;
+	padding-bottom: 4em;
+	padding-right: 2em;
+	font-size: 1.1em;
+}
+
+/*aside*/
+
+	/*fausses publicités vintage*/
+
+.bloc_aside{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 2em;
+	background-color: #84B58D;
+}
+
+/*footer*/
+
+.bloc_footer{
+	background-color: #000000;
+	color: #FFFFFF;
+	justify-content: space-around;
+	display: flex;
+	flex-direction: row;
+}
+
