@@ -1,0 +1,24 @@
+/*responsive*/
+@media (max-width: 1280px){
+	.bloc_header{
+	background-image: url(img/telephone1200.jpg);
+	}
+	.premier_bloc{
+	background-image: url(img/ananas1200.jpg); /*?*/
+	}
+	.second_bloc{
+	background-image: url(img/cafe1200.jpg);
+	}
+	.troisieme_bloc{
+	background-image: url(img/banana1200.jpg); /*?*/
+	}
+	.quatrieme_bloc{
+	background-image: url(img/casque1200.jpg);
+	}
+	.dernier_bloc{
+	background-image: url(img/craie1200.jpg); /*?*/
+	}
+	.bloc_aside{
+	justify-content: space-between;
+	}
+}
